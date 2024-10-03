@@ -44,6 +44,25 @@ print(f"{number1} is greater than {number2}? => {number1 > number2}")
 print(f"{number1} is not greater than {number2}? => {number1 < number2}", end="\n\n")
 
 
+# List: mutable data type
+data_type = 'List'
+print(data_type)
+
+number_list = [1,2,3,4,5,6,7,8]
+print(number_list) # display list
+print("List items using iterable:")
+for number in number_list:
+    print(number, end=' , ')
+print()
+# add element to the list
+number_list.append(4)
+print(f"List after addition of 4 is {number_list}")
+# remove element from list
+number_list.remove(8)
+print(f"List after deletion of 8 is {number_list}")
+# length of list
+print("Total length of list is ",len(number_list))
+
 ##
 
 
@@ -68,7 +87,10 @@ def ticket_functionality(main_balance=1000):
     return _balance
 
 
-user_input = input("Press 1 to continue... ")
-if user_input == '1':
-    wallet_balance = ticket_functionality(2000)
-    print(f"wallet_balance is {wallet_balance}")
+def ticket_purchasing():
+    user_input = input("Press 1 to continue... ")
+    if user_input == '1':
+        wallet_balance = ticket_functionality(2000)
+        print(f"wallet_balance is {wallet_balance}")
+
+ticket_purchasing()
