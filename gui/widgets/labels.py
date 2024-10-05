@@ -1,9 +1,8 @@
 from tkinter import *
-from tkinter import ttk
+from gui.utils import show_label
 
 root = Tk()
-label = ttk.Label(root, text="Welcome to the GUI version of Python")
-label.pack()
+label = show_label(root, "Welcome to the GUI version of Python")
 
 # image used in logo as two level up
 logo = PhotoImage(file="../../images/robo.png")

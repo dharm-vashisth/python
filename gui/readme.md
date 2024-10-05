@@ -7,4 +7,5 @@
 - Widgets
   - button
   - button [working with logo]
+  - checkbox
   - label [with attributes image and text]
