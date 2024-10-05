@@ -12,7 +12,8 @@ def show_checkbox_value(value):
 def main():
     root = Tk()
 
-    label = show_label(root, "Select the pizza toppings:",12)
+    title = show_label(root, "CheckBoxes",16)
+    label = show_label(root, "Select the pizza toppings:",10)
 
     # checkbox
     text_chk_1 = "Tomato"
