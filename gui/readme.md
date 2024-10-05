@@ -6,4 +6,4 @@
 - Dynamic Hello
 - Widgets
   - button
-  - label
+  - label [with attributes image and text]
