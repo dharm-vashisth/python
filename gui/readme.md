@@ -11,3 +11,4 @@
   - combobox and spinbox
   - entry [one line string]
   - label [with attributes image and text]
+  - progressbar and scale
