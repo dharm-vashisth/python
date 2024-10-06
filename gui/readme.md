@@ -8,5 +8,6 @@
   - button
   - button [working with logo]
   - checkbox
+  - combobox and spinbox
   - entry [one line string]
   - label [with attributes image and text]
