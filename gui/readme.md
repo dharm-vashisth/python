@@ -8,4 +8,5 @@
   - button
   - button [working with logo]
   - checkbox
+  - entry [one line string]
   - label [with attributes image and text]
