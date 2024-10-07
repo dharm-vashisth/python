@@ -24,20 +24,14 @@ class SideWindow:
         self.window = Toplevel(root)
         self.window.title("Child Window")
         self.window.geometry('100x200+10+20')
-        button = ttk.Button(self.window, text="Maximize window")
+
+        button = ttk.Button(self.window, text="Minimize Window")
         button.pack()
-        button.config(command=self.maximize)
+        button.config(command=self.minimize)
 
-        button2 = ttk.Button(self.window, text="Minimize Window")
+        button2 = ttk.Button(self.window, text="Close Window")
         button2.pack()
-        button2.config(command=self.minimize)
-
-        button3 = ttk.Button(self.window, text="Close Window")
-        button3.pack()
-        button3.config(command=self.destroy_window)
-
-    def maximize(self):
-        self.window.deiconify()
+        button2.config(command=self.destroy_window)
 
     def minimize(self):
         self.window.iconify()
