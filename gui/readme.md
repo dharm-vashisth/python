@@ -10,5 +10,6 @@
   - checkbox
   - combobox and spinbox
   - entry [one line string]
+  - frames
   - label [with attributes image and text]
   - progressbar and scale
