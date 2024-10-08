@@ -35,15 +35,8 @@ def clear_things(user,password):
         messagebox.showwarning("Warning", "All form fields are mandatory")
     # print(f"User: {user_name_value} and Password: {user_pass_value}")
 
-
-def main():
-    root = Tk()
-    root.geometry('500x600')
-
-    title = show_label(root, "CyberHub", 16)
-    title.config(background='olive', foreground='white')
-
-    frame = ttk.Frame(root,width=400, height=200)
+def show_login_form(master):
+    frame = ttk.Frame(master,width=400, height=200)
     frame.pack()
     frame.config(relief= RIDGE, padding=(20,10))
 
@@ -63,6 +56,14 @@ def main():
     submit_button = ttk.Button(frame, text="Submit", padding=(5,2))
     submit_button.pack()
     submit_button.config(command= lambda: clear_things(user_name,user_pass))
+
+def main():
+    root = Tk()
+    root.geometry('500x600')
+
+    title = show_label(root, "CyberHub", 16)
+    title.config(background='olive', foreground='white')
+    show_login_form(root)
     root.mainloop()
 
 
