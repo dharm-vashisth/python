@@ -12,4 +12,5 @@
   - entry [one line string]
   - frames
   - label [with attributes image and text]
+  - pane Window [with two frames]
   - progressbar and scale
