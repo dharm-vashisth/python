@@ -57,13 +57,15 @@ def show_login_form(master):
     submit_button.pack()
     submit_button.config(command= lambda: clear_things(user_name,user_pass))
 
+    return frame
+
 def main():
     root = Tk()
     root.geometry('500x600')
 
     title = show_label(root, "CyberHub", 16)
     title.config(background='olive', foreground='white')
-    show_login_form(root)
+    frame = show_login_form(root)
     root.mainloop()
 
 
