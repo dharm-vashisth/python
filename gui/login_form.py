@@ -27,12 +27,12 @@ from gui.utils import (
 def clear_things(user,password):
     user_name_value = user.get()
     user_pass_value = password.get()
-    if user_name_value.strip() != '' and user_pass_value.strim()!='':
-        messagebox.showinfo("Alert","Form Submitted")
+    if user_name_value.strip() != '' and user_pass_value.strip()!='':
+        messagebox.showinfo("Information","Form Submitted")
         user.set('')
         password.set('')
     else:
-        messagebox.showinfo("Warning", "All form fiels are mandatory")
+        messagebox.showwarning("Warning", "All form fields are mandatory")
     # print(f"User: {user_name_value} and Password: {user_pass_value}")
 
 
