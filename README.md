@@ -17,6 +17,9 @@ I thrive on transforming complex data into valuable insights that empower decisi
 
 - Comming soon
 
+🏅 Badges
+- Hacktober 2024 Badge ID is `cm229ffvi121690cmfvwdxq9wc`. This is my first time participating, and I can’t wait to contribute to open-source projects, learn new skills, and make a difference in the community. 💻🚀
+
 📚 Lifelong Learner: 
 - I am committed to continuous learning and regularly engage with the data community through meetups and online courses.
 
