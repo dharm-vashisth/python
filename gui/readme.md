@@ -15,3 +15,4 @@
   - pane Window [with two frames]
   - progressbar and scale
   - tab windows
+  - text entry
