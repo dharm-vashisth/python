@@ -26,10 +26,10 @@ def main():
     bank.name = 'Ramo' # custom attribute for our object
     print("Welcome to our Reputed AB bank:", end='\n\n')
     bank.deposit(100)
-    print(f"Dear {bank.name}, Deposited 100 in your bank.")
+    print(f"Dear {bank.name}, Deposited 100 in your bank account.")
     print(bank)
     bank.withdraw(10)
-    print(f"Dear {bank.name}, Withdrawal of 10 from your bank.")
+    print(f"Dear {bank.name}, Withdrawal of 10 from your bank account.")
     print(bank, end='\n\n')
     print("Ignore this line. Debugging stuff: ",repr(bank)) # for debugging purpose
 
