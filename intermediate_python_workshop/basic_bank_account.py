@@ -10,7 +10,7 @@ class BankAccount:
 def main():
     bank = BankAccount()
     bank.deposit(100)
-    print("Deposited 100 in our bank")
+    print("Deposited 100 in your bank account.")
     print("Balance:",bank.balance)
 
 if __name__=="__main__":
