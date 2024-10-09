@@ -23,13 +23,15 @@ class BankAccount:
 
 def main():
     bank = BankAccount()
+    bank.name = 'Ramo' # custom attribute for our object
+    print("Welcome to our Reputed AB bank:", end='\n\n')
     bank.deposit(100)
-    print("Deposited 100 in our bank.")
+    print(f"Dear {bank.name}, Deposited 100 in your bank.")
     print(bank)
     bank.withdraw(10)
-    print("Withdrawal of 10 from your bank.")
-    print(bank)
-    print(repr(bank)) # for debugging purpose
+    print(f"Dear {bank.name}, Withdrawal of 10 from your bank.")
+    print(bank, end='\n\n')
+    print("Ignore this line. Debugging stuff: ",repr(bank)) # for debugging purpose
 
 if __name__=="__main__":
     main()
