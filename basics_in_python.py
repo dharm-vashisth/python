@@ -63,6 +63,17 @@ print(f"List after deletion of 8 is {number_list}")
 # length of list
 print("Total length of list is ",len(number_list))
 
+# tuple: immutable data type
+data_type = 'Type'
+print(data_type)
+
+number_tuple = (1,2,3,4,5,6,7,8)
+print(number_tuple) # display tuple
+print("Tuple items using iterable:")
+for number in number_tuple:
+    print(number, end=' , ')
+print()
+
 ##
 
 
