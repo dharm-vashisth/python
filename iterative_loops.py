@@ -7,3 +7,7 @@ for item in items:
 number = range(244)
 even= [num for num in number if num%2==0]
 print(even)
+
+# dictionary containing number anf square of odd number from the list of numbers
+square_even= {num:num**2 for num in number if num%2!=0}
+print(square_even)
