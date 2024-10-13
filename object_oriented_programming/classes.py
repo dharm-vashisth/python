@@ -8,7 +8,7 @@
 # -------------------------------------------------- #
 # Author      : Dharm Vashisth                       #
 # Created on  : 2024-10-13                           #
-# Description : Class Template for Number            #
+# Description : Class Template                       #
 #                                                    #
 # -------------------------------------------------- #
 
@@ -32,21 +32,11 @@ class Number:
 
     # dunder method to represent object
     def __repr__(self):
-        msg = f"Number is {self._number}"
+        msg = "\nClass Name: Number"
+        msg += f"\nNumber is {self._number}"
         msg += "\nNumber is "
         if self.is_odd_number():
             msg += "odd."
         else:
             msg += "even."
         return msg
-
-
-def main():
-    number = Number(23.4)
-    print(number)
-    # throw exception if number is neither integer nor float.
-    # number2 = Number("23.4")
-
-
-if __name__ == "__main__":
-    main()
