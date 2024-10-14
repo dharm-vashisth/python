@@ -14,8 +14,9 @@
 from classes import (
     Number,
     Dog,
+    Voice,
 )
-from object_oriented_programming.classes import Voice
+
 
 
 def main():
