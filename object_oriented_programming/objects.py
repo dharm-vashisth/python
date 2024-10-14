@@ -11,7 +11,11 @@
 # Description : Objects                              #
 #                                                    #
 # -------------------------------------------------- #
-from classes import Number
+from classes import (
+    Number,
+    Dog,
+)
+from object_oriented_programming.classes import Voice
 
 
 def main():
@@ -25,6 +29,15 @@ def main():
     print(number)
     # throw exception if number is neither integer nor float.
     # number2 = Number("23.4")
+
+    # inheritance
+    voice = Voice("Bob")
+    print(voice)
+    voice.voice()
+
+    dog = Dog("Zimmy")
+    print(dog)
+    dog.voice()
 
 
 if __name__ == "__main__":

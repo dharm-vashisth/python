@@ -40,3 +40,21 @@ class Number:
         else:
             msg += "even."
         return msg
+
+class Voice:
+    def __init__(self,name):
+        self.name = name
+
+    def voice(self):
+        print("My Voice.")
+
+    def __repr__(self):
+        return f"Hi, I'm {self.name}"
+
+
+class Dog(Voice):
+    def __init__(self,name):
+        super().__init__(name)
+
+    def voice(self):
+        print("I used to bark.")
