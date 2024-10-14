@@ -74,6 +74,17 @@ for number in number_tuple:
     print(number, end=' , ')
 print()
 
+# Set: mutable data type
+data_type = 'Set'
+print(data_type)
+
+# set will remove the duplicates and sort them in ascending order.
+number_set = set([5,1,2,1,3,3,4,3,5,6,7,8])
+print(number_set) # display set
+print("Set items using iterable:")
+for number in number_set:
+    print(number, end=' , ')
+print()
 ##
 
 
