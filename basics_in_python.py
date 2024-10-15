@@ -85,6 +85,20 @@ print("Set items using iterable:")
 for number in number_set:
     print(number, end=' , ')
 print()
+
+# Dictionary: immutable data type
+data_type = 'Dictionary'
+print(data_type)
+
+# Empty Dictionary
+_dictionary = {'name':'Bob',}
+_dictionary['age']='12'
+print(_dictionary) # display
+_dictionary.append({'blood':'B+'})
+print("Dictionary items using iterable:")
+for key,value in _dictionary.items():
+    print(f'{key} => {value}', end=' , ')
+print()
 ##
 
 
