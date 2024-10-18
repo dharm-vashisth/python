@@ -2,7 +2,7 @@
 ## Hi there! 👋 I'm **Dharm Vashisth**
 
 **Experienced Data Engineer**
-- I am a passionate data engineer with 2.5 years of experience in building robust data pipelines and implementing
+- I am a passionate data engineer with 3 years of experience in building robust data pipelines and implementing
 data solutions that drive business intelligence. 
 I thrive on transforming complex data into valuable insights that empower decision-making.
 
