@@ -17,8 +17,10 @@ def main():
     try:
         number = int(input("Enter an integer number"))
         print("Number entered by you is ",number)
+    except ValueError as ve:
+        print("Got the value error!!!\n",ve)
     except Exception as e:
-        print("Exception caught!!!\nplease provide a valid integer number.\nError message: ",e)
+        print("Exception caught!!!\nError message: ",e)
 
 
 if __name__ == "__main__":
