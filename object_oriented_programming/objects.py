@@ -27,18 +27,18 @@ def main():
     number = Number(12.42e-14)
     print(number)
     number = Number(12.42e14)
-    print(number)
+    print(number, end='\n\n')
     # throw exception if number is neither integer nor float.
     # number2 = Number("23.4")
 
     # inheritance
     voice = Voice("Bob")
-    print(voice)
     voice.voice()
+    print(voice, end ='\n\n')
 
     dog = Dog("Zimmy")
-    print(dog)
     dog.voice()
+    print(dog, end='\n\n')
 
 
 if __name__ == "__main__":

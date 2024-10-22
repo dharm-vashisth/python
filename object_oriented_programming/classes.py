@@ -46,15 +46,19 @@ class Voice:
         self.name = name
 
     def voice(self):
-        print("My Voice.")
+        print("Parent Voice method is called.")
 
     def __repr__(self):
-        return f"Hi, I'm {self.name}"
+        return f"Hi, my name is {self.name}"
 
-
+# inheritance
 class Dog(Voice):
     def __init__(self,name):
+        # calling the parent constructor
         super().__init__(name)
 
     def voice(self):
-        print("I used to bark.")
+        print("Dog class Voice method is called.")
+
+    def __repr__(self):
+        return f"Hi, my name is {self.name}. I'm a Dog. I used to bark."
