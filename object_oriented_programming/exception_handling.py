@@ -26,6 +26,8 @@ def main():
         print("Got the value error!!!\nNot getting an integer value\n",ve)
     except Exception as e:
         print("Exception caught!!!\nError message: ",e)
+    finally:
+        print("This division program is written by Dharm Vashisth.")
 
 
 if __name__ == "__main__":
