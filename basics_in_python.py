@@ -1,4 +1,6 @@
 # first line of python directory
+import array
+
 print('Hello World', end="\n\n")
 
 # Data Types in python:
@@ -73,6 +75,11 @@ print("Tuple items using iterable:")
 for number in number_tuple:
     print(number, end=' , ')
 print()
+
+## Array
+my_array = array.array('u',['D','h','a','r','m'])
+print('Array')
+print(my_array)
 
 # Set: mutable data type
 data_type = 'Set'
