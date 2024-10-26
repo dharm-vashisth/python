@@ -14,12 +14,12 @@
 
 
 def is_armstrong(n)-> bool:
-    tmp = n
-    result = 0
-    while tmp>0:
-        result+=(tmp%10)**3
-        tmp//=10
-    return result == n
+    tmp_number = n
+    result_number = 0
+    while tmp_number>0:
+        result_number+=(tmp_number%10)**3
+        tmp_number//=10
+    return result_number == n
 
 
 def main():
