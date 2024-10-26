@@ -13,21 +13,23 @@
 # -------------------------------------------------- 
 
 
-def is_armstrong(n)-> bool:
+def is_armstrong(n) -> bool:
     tmp_number = n
     result_number = 0
-    while tmp_number>0:
-        result_number+=(tmp_number%10)**3
-        tmp_number//=10
+    while tmp_number > 0:
+        result_number += (tmp_number % 10) ** 3
+        tmp_number //= 10
     return result_number == n
 
 
 def main():
-    _number=int(input('Enter a number: '))
-    if is_armstrong(_number):
-        print("Number is armstrong.")
-    else:
-        print("Number is not an armstrong.")
+    _number = int(input('How many armstrong numbers do you want to print?\n'))
+    i = 1
+    while _number > 0:
+        if is_armstrong(i):
+            print(i, end=' ')
+            _number -= 1
+        i += 1
 
 
 if __name__ == "__main__":
