@@ -8,6 +8,7 @@ I thrive on transforming complex data into valuable insights that empower decisi
 
 🔧 Skills:
 
+- Proactive in working with team.
 - Proficient in Python, SQL, and Java.
 - Having Experience working with Databricks platforms.
 - Familiar with data warehousing concepts.
